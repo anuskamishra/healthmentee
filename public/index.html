@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Healthmentee</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class=" relative  mx-auto py-4 px-8 bg-gray-300">
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div>
+                <img src="./img/logo.png" alt="" class="w-14">
+            </div>
+
+            <!-- Menu Item -->
+            <div class="hidden lg:flex space-x-10">
+                <a href="./index.html" class="hover:text-red-700 text-2xl">Home</a>
+                <a href="./about.html" class="hover:text-red-700 text-2xl">About</a>
+                <a href="./blog.html" class="hover:text-red-700 text-2xl">Blogs</a>
+                <a href="./activities.html" class="hover:text-red-700 text-2xl">Activities</a>
+            </div>
+
+            <!-- Button -->
+            <a href="./login.html" class="hidden lg:block p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-red-600">LOG IN</a>
+
+            <!-- Hamburger Icon -->
+        <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+        </div>
+
+        
+
+        <!-- Mobile Menu -->
+        <div class="lg:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:text-red-700">Home</a>
+                <a href="#" class="hover:text-red-700">About</a>
+                <a href="#" class="hover:text-red-700">Blogs</a>
+                <a href="#" class="hover:text-red-700">Activities</a>
+                <!-- <a href="#" class="hover:text-red-700">Random</a> -->
+                <a href="#" class=" p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-red-600">LOG IN</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="px-32 py-32 flex gap-10 border-b-4 border-rose-400">
+            
+                <div>
+                    <span class="text-5xl font-bold">
+                        Healthmentee is here to,
+                    </span>
+                    <br>
+                    <div class="pt-1"></div>
+                    <span class="text-rose-700 font-bold text-5xl">
+                        let you know that It's Okay to be not Okay.
+                    </span>
+                    <div class="pt-4 ">
+                        <span class="text-slate-600 title">
+                            At Healthmentee, we are passionate about improving the accessibility and quality of mental healthcare. We believe that everyone deserves access to mental health support, regardless of their location or schedule. That's why we have created a user-friendly and secure web-based mental health app that allows you to connect with licensed therapists and mental health professionals from the comfort of your own home. Our team is made up of experienced mental health professionals who are dedicated to helping you achieve your mental wellness goals. We understand that taking the first step can be daunting, which is why we strive to make the process as simple and stress-free as possible. We are committed to providing a safe and confidential space for you to discuss your mental health concerns and work towards a healthier, happier you.
+                        </span>
+                        
+                        <div class="flex space-x-6 mt-10">
+                            <a href="./form.html"><button class="p-2 rounded text-white bg-rose-600">Get Started</button></a>
+                            <a href="./signup.html"><button class="p-2 rounded text-white bg-rose-600">Sign Up</button></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            
+            
+                <div class=" px-0 py-0">
+                    <img src="./img/herooo.jpeg" class="rounded-2xl object cover " alt="">
+                </div>
+            
+        </div>
+    </section>
+
+
+
+    <!--  DOCTOR SECTION -->
+    <section id="doctors">
+        <!-- Flex Container -->
+        <div class="flex flex-col-reverse justify-center md:flex-row px-20 mx-auto mt-10 space-y-0 md:mx-auto md:justify-around">
+            <!-- Left Item -->
+            <div class="flex-col mb-32 space-y-6 md:w-1/2 lg:space-y-12">
+                <div class="text-4xl">Professional, licensed, and vetted terapist who you can trust</div>
+
+                <div class="text-xl">Therapy can be an effective treatment for a host of mental and emotional problems. Simply talking about your thoughts and feelings with a supportive person can often make you feel better. It can be very healing, in and of itself, to voice your worries or talk about something that’s weighing on your mind. And it feels good to be listened to—to know that someone else cares about you and wants to help.</div>
+
+                
+
+            </div>
+
+            <!-- Right Item -->
+            <div class="md:w-1/2">
+                <img src="./img/doctor.png" alt="" class="w-max h-max">
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" >
+        <h3 class="text-5xl text-red-600 text-center mb-20">How It Works</h3>
+        <div class="flex flex-col space-y-12 mb-32 items-center md:flex-row md:justify-center">
+            <div class="flex flex-row items-center w-96 md:flex-col">
+                <img src="./img/work.png" alt="" class="w-40 h-40">
+                <p class="text-2xl md:text-xl md:w-40">See if you need therapy</p>
+            </div>
+
+            <div>
+                <img src="./img/Arrow.png" alt="" class="rotate-90 md:rotate-0 h-20">
+            </div>
+
+            <div class="flex flex-row items-center w-96 md:flex-col">
+                <img src="./img/work.png" alt="" class="w-40 h-40">
+                <p class="text-2xl md:text-xl md:w-40">Get matched to a therapist</p>
+            </div>
+
+            <div>
+                <img src="./img/Arrow.png" alt="" class="rotate-90 md:rotate-0 h-20">
+            </div>
+
+            <div class="flex flex-row items-center w-96 md:flex-col md:space-x-6">
+                <img src="./img/work.png" alt="" class="w-40 h-40">
+                <p class="text-2xl md:text-xl md:w-40">Continue your sessions with doctor.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FAQ -->
+    <section>
+        <h3 class="text-5xl text-red-600 text-center mb-16">FAQ</h3>
+        <div id="faq" class="mb-20 flex justify-center">
+            <div class="">
+                <!-- Products -->
+                <div class="relative w-[700px] shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.8)] rounded-2xl m-[15px] bg-rose-400">
+                    <input type="checkbox" id="input" class="absolute peer opacity-0">
+                    <label for="input" class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">Why is Therapy Important ?</label>
+                    <!-- Arrow -->
+                    <div class="absolute top-[15px] right-[30px] rotate-0 peer-checked:rotate-180 duration-100">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+                        <p class="p-[20px] text-md text-white">
+                            Therapy can help you manage life's varied challenges and live a more fulfilled life. It can help you understand what you're feeling, why and how to cope. Just like visiting your doctor for regular wellness exams, or your dentist for checkups, meeting with a therapist can help keep your mental health in order.
+                        </p>
+                    </div>
+                </div>
+    
+                <!-- Information -->
+                <div class="relative w-[700px] shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.8)] rounded-2xl m-[15px] bg-rose-400">
+                    <input type="checkbox" id="input1" class="absolute peer opacity-0">
+                    <label for="input1" class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">Who will be helping me ?</label>
+                    <!-- Arrow -->
+                    <div class="absolute top-[15px] right-[30px] rotate-0 peer-checked:rotate-180 duration-100">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+                        <p class="p-[20px] text-md text-white">
+                            After you sign up, we will match you to an available therapist who fits your objectives, preferences, and the type of issues you are dealing with. Different therapists have different approaches and areas of focus, so it's important to find the right person who can achieve the best results for you. We have found that we are able to provide a successful match most of the time; however, if you start the process and you feel your therapist isn't a good fit for you, you may elect to be matched to a different therapist.
+                        </p>
+                    </div>
+                </div>
+    
+    
+                <!-- Question -->
+                <div class="relative w-[700px] shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.8)] rounded-2xl m-[15px] bg-rose-400">
+                    <input type="checkbox" id="input2" class="absolute peer opacity-0">
+                    <label for="input2" class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">Will my therapist treat what I say as confidential ?</label>
+                    <!-- Arrow -->
+                    <div class="absolute top-[15px] right-[30px] rotate-0 peer-checked:rotate-180 duration-100">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+                        <p class="p-[20px] text-md text-white">
+                            Knowing that you can say anything to your therapist and it will remain in the room helps you feel safe and builds trust between you and the therapist. For this reason, all therapists are legally and ethically bound to keep their sessions confidential and not share with anyone else what was talked about.
+                        </p>
+                    </div>
+                </div>
+    
+    
+                <!-- Guides -->
+                <div class="relative w-[700px] shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.8)] rounded-2xl m-[15px] bg-rose-400">
+                    <input type="checkbox" id="input3" class="absolute peer opacity-0">
+                    <label for="input3" class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">How is my privacy and security protected ?</label>
+                    <!-- Arrow -->
+                    <div class="absolute top-[15px] right-[30px] rotate-0 peer-checked:rotate-180 duration-100">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+                        <p class="p-[20px] text-md text-white">
+                            Strong passwords are the most important — and sometimes the only — protection we have against identity theft and hackers. If you don't already have passwords or passcodes for all your devices (including guest accounts), add them now.
+                        </p>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <h3 class="text-4xl text-rose-600 mb-20 text-center">Contact Us</h3>
+        <div class="container contact__container">
+            <aside class="contact__aside">
+                <div class="aside__image">
+                    <img src="./img/contact.jpeg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>
+                    You can reach out us
+                </p>
+                <ul class="contact__details">
+                    <li>
+                        <i class="uil uil-phone-times"></i>
+                        <h5>+917004309130</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-envelope"></i>
+                        <h5>dhananjaygorain7870@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-location-point"></i>
+                        <h5>Dhanbad, India</h5>
+                    </li>
+                </ul>
+    
+                <ul class="contact__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </aside>
+    
+    
+            <form class="contact__form">
+                <div class="form__name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer class="bg-rose-600 px-24 pt-16 pb-8">
+        <div class="flex flex-col md:flex-row md:justify-around space-y-10 md:space-y-0">
+            <!-- Get in Touch -->
+            <div>
+                <h4 class="text-xl mb-1">Get in Touch</h4>
+                <p class="text-white text-md">business@something.com</p>
+                <p class="text-white text-md">hello@gethelp.com</p>
+            </div>
+
+            <!-- Connect -->
+            <div>
+                <h4 class="text-xl mb-1">Connect</h4>
+                <p class="text-white text-md">LinkedIn</p>
+                <p class="text-white text-md">Instagram</p>
+            </div>
+
+            <!-- Design Services -->
+            <div>
+                <h4 class="text-xl mb-1">Design Services</h4>
+                <p class="text-white text-md">10999</p>
+                <p class="text-white text-md">something something</p>
+            </div>
+
+            <!-- Ventures -->
+            <div>
+                <h4 class="text-xl mb-1">Ventures</h4>
+                <p class="text-white text-md">something</p>
+                <p class="text-white text-md">something 2</p>
+            </div>
+
+        </div>
+
+        <!-- Lower Section -->
+        <!-- <div class="mt-24  bg-white p-4 rounded-3xl space-x-4 inline-block footer-links">
+            <a href="" class="text-lg hover:text-white hover:bg-rose-600 py-1 px-3 rounded-3xl ">Home</a>
+            <a href="" class="text-lg hover:text-white hover:bg-rose-600 py-1 px-2 rounded-3xl ">About</a>
+            <a href="" class="text-lg hover:text-white hover:bg-rose-600 py-1 px-2 rounded-3xl ">Blogs</a>
+            <a href="" class="text-lg hover:text-white hover:bg-rose-600 py-1 px-2 rounded-3xl ">Activities</a>
+        </div> -->
+
+    </footer>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
