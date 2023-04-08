@@ -14,9 +14,9 @@ We will add a community chat section for people to connect.
 Technology used - 
 
 Node.js 
-Django
+MongoDB
+Mongoose
 Javascript
-Python
 Css3
 Tailwind css
 HTML5
